@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build && cp -R ./build/ ./server/public",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-server": "./server/node index.js"
   },
   "eslintConfig": {
     "extends": [
